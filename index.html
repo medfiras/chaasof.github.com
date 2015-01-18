@@ -14,6 +14,7 @@
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/customCSS.css" rel="stylesheet" />
 <link href="css/main.css" rel="stylesheet" />
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'> -->
 
 <!-- Theme skin -->
 <link href="skins/default.css" rel="stylesheet" />
@@ -121,6 +122,39 @@
             </div><!--/.row-->    
         </div><!--/.container-->
     </section>
+
+    <section id="memberOf" class="memberOf">
+			 <div class="container">
+				 <div class="memberOf-grid">
+					<h3>take a look at <span>our memberOf </span></h3>
+					<img alt="" src="img/li-in.png">
+					<p><i>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i></p>
+				</div>
+				<div class="ser-grid">
+					<div class="col-md-3 ser-in">
+						<a href="#"><span> </span></a>
+						<h6>Web design</h6>	
+						<p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					 </div>
+					 <div class="col-md-3 ser-in">
+						<a href="#"><span class="mobile"> </span></a>
+						<h6>Web design</h6>	
+						<p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					 </div>
+					 <div class="col-md-3 ser-in">
+						<a href="#"><span class="camera"> </span></a>
+						<h6>Web design</h6>	
+						<p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					 </div>
+					 <div class="col-md-3 ser-in">
+						<a href="#"><span class="mike"> </span></a>
+						<h6>Web design</h6>	
+						<p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					 </div>
+				<div class="clearfix"> </div>
+				</div>
+			</div>
+		</section>
 
 	<section id="content">
 	<div class="container">
@@ -344,7 +378,7 @@ function printRepoCount() {
   for (i = 0; i <= responseObj.length; i++) {
 
     if ((responseObj[i].updated_at > "2014-12-12T00:00:00Z")&& (a < 7)) {
-	tab.innerHTML += "<div style='visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;' class='col-md-4 col-sm-6 wow fadeInDown animated' data-wow-duration='1000ms' data-wow-delay='600ms'> <div class='feature-wrap'> <i class='fa fa-bullhorn'></i>  <h2>"+ responseObj[i].name +"</h2> <h3>"+ responseObj[i].description +"</h3> </div> </div>";
+	tab.innerHTML += "<div class='col-md-4 col-sm-6'> <div class='feature-wrap'> <i class='fa fa-bullhorn'></i>  <h2>"+ responseObj[i].name +"</h2> <h3>"+ responseObj[i].description +"</h3> </div> </div>";
 
 
 //tab.innerHTML += "<li class='col-lg-3 design' data-id='id-"+a+"'data-type='web'><div class='item-thumbs'><a class='hover-wrap fancybox' data-fancybox-group='gallery' title='"+responseObj[i].name+"' href='https://raw.githubusercontent.com/melekJe/github_theme/master/moderna/img/works/"+ a +".jpg'><span class='overlay-img'></span><span class='overlay-img-thumb font-icon-plus'></span></a><img src='https://raw.githubusercontent.com/melekJe/github_theme/master/moderna/img/works/"+ a +".jpg' alt='"+responseObj[i].description+"'></div></li>";

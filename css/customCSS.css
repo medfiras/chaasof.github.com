@@ -41,3 +41,72 @@
 .nav-custom span{
 	display: none;
 }
+
+
+.memberOf {
+    padding: 5em 0 4em;
+    text-align: center;
+}
+.memberOf-grid h3 {
+    color: #000;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0 0 0.3em;
+    text-transform: uppercase;
+}
+
+.memberOf-grid h3 span {
+    font-weight: 600;
+}
+
+.memberOf {
+    padding: 5em 0 4em;
+    text-align: center;
+}
+.memberOf-grid h3 {
+    color: #000;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0 0 0.3em;
+    text-transform: uppercase;
+}
+.memberOf-grid h3 span {
+    font-weight: 600;
+}
+.memberOf-grid p {
+    color: #000;
+    font-size: 1.2em;
+    margin: 2em 0;
+}
+
+.ser-in h6 {
+    color: #000;
+    font-size: 2.3em;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+.ser-in p {
+    color: #000;
+    font-size: 1.1em;
+    margin: 1em auto;
+}
+.ser-in span {
+    background: url("../img/img-sprite.png") repeat scroll -58px -10px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 127px;
+    width: 133px;
+}
+.ser-in span.mobile {
+    background-position: -199px -10px;
+}
+.ser-in span.camera {
+    background-position: -338px -10px;
+}
+.ser-in span.mike {
+    background-position: -488px -10px;
+}
+.ser-grid {
+    padding: 4em 0;
+}
+
+
